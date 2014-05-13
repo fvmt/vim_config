@@ -1,3 +1,9 @@
+"The following configuration is used in cygwin vim,
+"so there are some necessary configuration steps
+"to make all this thing work together
+"
+"1. You need a cygwin with python and vim
+"2. You need to configure terminal to be 256color
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
